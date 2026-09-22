@@ -1,0 +1,22 @@
+print("using Temp")
+a,b=35,15
+temp=a
+a=b
+b=temp
+print(a,b)
+print("using ,")
+a,b=35,15
+a,b=b,a
+print(a,b)
+print("using + and -")
+a,b=35,15
+a=a+b
+b=a-b
+a=a-b
+print(a,b)
+print("using ^")
+a,b=35,15
+a=a^b
+b=a^b
+a=a^b
+print(a,b)
